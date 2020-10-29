@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topppro.SecureSite", "Toppp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topppro.Configuration", "Topppro.Configuration\Topppro.Configuration.csproj", "{E312E50B-FE66-4BA3-9AF9-42A1265CA931}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topppro.Manager", "Topppro.Manager\Topppro.Manager.csproj", "{2AB22886-36CD-441B-9A49-1B3B77753039}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,6 +102,12 @@ Global
 		{E312E50B-FE66-4BA3-9AF9-42A1265CA931}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E312E50B-FE66-4BA3-9AF9-42A1265CA931}.Stage|Any CPU.ActiveCfg = Release|Any CPU
 		{E312E50B-FE66-4BA3-9AF9-42A1265CA931}.Stage|Any CPU.Build.0 = Release|Any CPU
+		{2AB22886-36CD-441B-9A49-1B3B77753039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB22886-36CD-441B-9A49-1B3B77753039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB22886-36CD-441B-9A49-1B3B77753039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB22886-36CD-441B-9A49-1B3B77753039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AB22886-36CD-441B-9A49-1B3B77753039}.Stage|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB22886-36CD-441B-9A49-1B3B77753039}.Stage|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,10 +123,11 @@ Global
 		{50088BEE-0728-475E-83FE-C23FA471F7FD} = {A0CDEFBE-327F-4005-8D8F-2BD7C200B7D8}
 		{4B7C4A4B-66BB-44B0-8EF0-8D5E6A47C130} = {A0CDEFBE-327F-4005-8D8F-2BD7C200B7D8}
 		{E312E50B-FE66-4BA3-9AF9-42A1265CA931} = {A0CDEFBE-327F-4005-8D8F-2BD7C200B7D8}
+		{2AB22886-36CD-441B-9A49-1B3B77753039} = {A0CDEFBE-327F-4005-8D8F-2BD7C200B7D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
 		SolutionGuid = {F83B1A87-BD7F-422E-9EA5-6B4885880FA9}
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Topppro.vsmdi
