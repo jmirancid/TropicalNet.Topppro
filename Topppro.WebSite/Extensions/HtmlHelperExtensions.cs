@@ -10,7 +10,7 @@ namespace Topppro.WebSite.Extensions
             this HtmlHelper htmlHelper, string culture, string image, string title, string content, string info = null, string date = null)
         {
             if (Topppro.Context.Current.Culture.TwoLetterISOLanguageName == culture)
-                Article(htmlHelper, image, title, content, info, date);
+                return Article(htmlHelper, image, title, content, info, date);
 
             return null;
         }

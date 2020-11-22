@@ -18,7 +18,7 @@ namespace Topppro.WebSite
 
             // Custom View Engine
             ViewEngines.Engines.Clear();
-            ViewEngines.Engines.Add(new CultureViewEngine());
+            ViewEngines.Engines.Add(new LocalizedViewEngine());
         }
     }
 }

@@ -168,7 +168,7 @@
     <Compile Include="Controllers\SpeakersController.cs" />
     <Compile Include="Controllers\MixersController.cs" />
     <Compile Include="Controllers\NewsController.cs" />
-    <Compile Include="CultureViewEngine.cs" />
+    <Compile Include="LocalizedViewEngine.cs" />
     <Compile Include="Extensions\DownloadExtensions.cs" />
     <Compile Include="Extensions\HtmlHelperExtensions.cs" />
     <Compile Include="Extensions\PlatformExtensions.cs" />
@@ -177,7 +177,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="HandleCultureAttribute.cs" />
+    <Compile Include="LocalizedMvcRouteHandler.cs" />
     <Compile Include="Models\Article.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\Global.Designer.cs">

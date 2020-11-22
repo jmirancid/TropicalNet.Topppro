@@ -25,7 +25,7 @@
             <img src="@path" class="img-fluid mb-4" alt="@Model.Product.Name">
         }
 
-        @foreach (var child in Model.Product.Childs)
+        @foreach (var child in Model.Product.Childs.Where(x => x.InheritHiRes))
         {
         foreach (var path in child.ChildProduct.GetHiRes())
         {

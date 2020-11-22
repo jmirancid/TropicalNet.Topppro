@@ -48,8 +48,8 @@
                             </ul>
 
 
-                            @*Child Attributes*@
-                            @foreach (var child in Model.Product.Childs)
+                            @*Child Bullets*@
+                            @foreach (var child in Model.Product.Childs.Where(x => x.InheritBullet))
                             {
                             <ul class="list-unstyled">
                             @foreach (var x in child.ChildProduct.Bullets)
@@ -83,7 +83,7 @@
     </div>
 
     @*Child Attributes*@
-    @foreach (var child in Model.Product.Childs)
+    @foreach (var child in Model.Product.Childs.Where(x => x.InheritAttribute))
     {
     <div class="row mb-4">
         <div class="col">
